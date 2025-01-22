@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="Hayden Weber">
+
+<meta name="description" content="This web page will hold the contact form for Summer Weber.">
+
+<title>Contact | Summer Weber</title>
+
+<link rel="stylesheet" href="homepage.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <!-- Logo used to be here -->
+      </div>
+      <h1>Summer Weber LLC</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+	
+	<form class="flex-form" action="#">
+  <label for="first-name">First Name:</label>
+  <input type="text" id="first-name" name="first-name" required>
+
+  <label for="last-name">Last Name:</label>
+  <input type="text" id="last-name" name="last-name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="reason">Reason:</label>
+  <select id="reason" name="reason" required>
+    <option value="" disabled selected>Select a reason</option>
+    <option value="business">Business</option>
+    <option value="personal">Personal</option>
+    <option value="sponsorship">Sponsorship</option>
+    <option value="franchise">Franchise</option>
+    <option value="other">Other</option>
+  </select>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <div class="button-container">
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+  </div>
+</form>
+	  
+	  <footer>
+	  <div class="logo">
+        <img src="images/logo.png" alt="Coffee Logo">
+		</div>
+		
+		<div class="address">
+        <p>Savanna's Coffee House</p>
+      </div>
+	  
+      <div class="address">
+        <p>604 24th Street<br>St. Paul, Minnesota</p>
+      </div>
+	  
+	  <div class="address">
+        <p>702-971-1154</p>
+      </div>
+    </footer>
+	
+    </div>
+</body>
+</html>
